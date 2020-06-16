@@ -4,6 +4,10 @@ input[type=range]
     top: 40%;
     transform: rotate(270deg);
 }
+.description {
+    margin-left: 5px;
+    vertical-align: middle;
+}
 .slidecontainer {
     width: 100%; /* Width of the outside container */
   }
