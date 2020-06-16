@@ -6,8 +6,8 @@ input[type=range][orient=vertical]
     height: 175px;
     padding: 0 5px;
 }
-.clarification {
-    margin-left: 5px;
+.explanation {
+    display: table-cell;
     vertical-align: middle;
 }
 .slidecontainer {
