@@ -1,8 +1,10 @@
-input[type=range]
+input[type=range][orient=vertical]
 {
-    position: absolute;
-    top: 40%;
-    transform: rotate(270deg);
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 175px;
+    padding: 0 5px;
 }
 .description {
     margin-left: 5px;
